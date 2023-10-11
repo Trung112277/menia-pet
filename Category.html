@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-category.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/7717c3565e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 text-left">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">   
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item dropdown">
+                                    <span class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Home
+                                    </span>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Pet Care</a></li>
+                                      <li><a class="dropdown-item" href="#">Home Shop</a></li>
+                                      <li><a class="dropdown-item" href="#">Home Mix</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Services
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Daycare</a></li>
+                                      <li><a class="dropdown-item" href="#">Walking</a></li>
+                                      <li><a class="dropdown-item" href="#">Grooming</a></li>
+                                      <li><a class="dropdown-item" href="#">Boarding</a></li>
+                                      <li><a class="dropdown-item" href="#">Training</a></li>
+                                      <li><a class="dropdown-item" href="#">Veterinary</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      About
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Our Story</a></li>
+                                      <li><a class="dropdown-item" href="#">Pet Tips</a></li>
+                                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Contact
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Contacts</a></li>
+                                      <li><a class="dropdown-item" href="#">Locations</a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div class="logo-home">
+                            <div class="logo">
+                                <a href=""><img src="images/logo-2.svg" alt=""></a>
+                            </div>
+                            <div class="petmania">
+                                <a href="">PetMania</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">   
+                        <div class="contact">
+                            <span>
+                                <a class="phone" href="">+1-800-356-8933</a>
+                                <a class="heart" href=""><i class="fa-regular fa-heart"></i></a>
+                                <button class="booknow">Book now</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <div class="container">
+                <p><a href="">Home</a> / <a href="">Dog</a> / <a href="">Food</a> / Dry food</p>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="dry-food">
+                        <h1>Dry food</h1>
+                    </div>
+                    <div class="clear">
+                        <a href="">Clear All</a>
+                    </div>
+                    <div class="content">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h        2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  Price range
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                                    <p>$9.00-$23.00</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  Category
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Cat
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Food
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Catnip & Grass
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Catnip & Grass
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Food Toppers
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Wet Food
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Deals
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Dog 
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Food
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Canned Food
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Dry food
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Food Toppers
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Veterinary Authorized Diets
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Wet Food
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Treats
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Biscuits & Bakery
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Chewy Treats
+                                        </label>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  Brand
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            ACANA
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Marshall
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            NexGard
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Pet Dreams
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Purina Pro Plan
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            ROAM
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Stella & Chewy's
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Zoo Med
+                                        </label>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                    Health Consideration
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                                  <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Aging
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Allergies
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Bladder
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Bone Development
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Brain Development
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Dehydration
+                                        </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                    Flavor
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                                  <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Beef
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Chicken
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Duck
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Fish
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Lamb
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Other
+                                        </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                    High Protein
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                                  <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Grain Free
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Limited Ingredient
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Natural
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Non-GMO
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            With-Grain
+                                        </label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="top">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p>
+                                    Showing all 10 results
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+    
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected><a href="">Default</a></option>
+                                    <option value="1"><a href="">Default sorting</a></option>
+                                    <option value="2"><a href="">Sort by popularity</a></option>
+                                    <option value="3"><a href="">Sort by average rating</a></option>
+                                    <option value="3"><a href="">Sort by latest</a></option>
+                                    <option value="3"><a href="">Sort by price: low to hight</a></option>
+                                    <option value="3"><a href="">Sort by price: hight to low</a></option>    
+                                  </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-content">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export3-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">ACANA Singles Grain Free Limited Ingredient Diet Duck and Pear Formula Dog Treats</a>
+                                    <p>$9.99–$22.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export10-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">Applaws Natural Wet Cat Food Chicken Breast in Broth</a>
+                                    <p>$9.99–$22.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export9-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">Applaws Natural Wet Cat Food Chicken Breast with Pumpkin in Broth</a>
+                                    <p>$9.99–$22.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/Product-7-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">BIXBI Hip & Joint Beef Liver Jerky Recipe Dog Treats</a>
+                                    <p>$9.99–$17.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export6-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">Bocce’s Bakery Every Day Bac’n Nutty Training Bites Dog Treats</a>
+                                    <p>$9.99–$22.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export1-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">Bocce’s Bakery Every Day Mud Pie Oh My Training Bites Treats</a>
+                                    <p>$9.99–$17.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export7-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">Bocce’s Bakery Every Day Say Moooo Training Bites Treats</a>
+                                    <p>$9.99–$22.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export4-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">Stella & Chewy’s Freeze Dried Raw Chewy’s Chicken Meal Mixers Grain Free Dog Food Topper</a>
+                                    <p>$9.99–$22.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export5-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">Stella & Chewy’s Wild weenies grain free chicken recipe freeze dried raw dog treats</a>
+                                    <p>$9.99–$19.99</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href=""><img src="images/ignore-export2-426x426.webp"  width="220"  height="220" alt=""></a>
+                                    <a href="">The Honest Kitchen Crunchy Fish Sammies Cod Stuffed with Carrots & Apples Natural Treats</a>
+                                    <p>$9.99–$19.99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-top">
+            <div class="footer-infor">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="images/logo-color.svg" alt="">
+                        </div>
+                        <div class="col-md-6">
+    
+                        </div>
+                        <div class="col-md-3">
+                            <img class="mau-vang" src="images/spiral.svg" alt="">
+                        </div>
+                        <div class="col-md-1 ">
+                            <span>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="contacts-text">
+                                <span>
+                                    Professional Dog Walking and Pet Care Services <br>
+                                    New York City, NY ⸺ <a href="">Brooklyn</a> and <a href="">Manhattan</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contacts-content">
+                                <span>
+                                    <a href="">Services</a>
+                                    <a href="">About us</a>
+                                    <a href="">Locations</a>
+                                    <a href="">Contact us</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-down">
+            <div class="container">
+                <div class="row">
+                    <div class="started">
+                        <div class="col-md-8 offset-md-2 text-center">
+                            <h3>Are you ready to get started?</h3>
+                        </div>
+                        <div class="col-md-8 offset-md-2 text-center">
+                            <div class="footer-book-now">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="">hi@petmania.com</a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button type="button">Book now</button>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="">+1-800-356-8933</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-3 text-center">
+                                <span class="tren">
+                                    PetMania © 2023   |  <a href="">1000S 8th Avenue, NY</a> <br>
+                                </span>
+                            </div>
+                            <div class="col-md-6 offset-md-3 text-center">
+                                <span class="duoi">
+                                    <a href="">Privacy</a>
+                                    <a href="">Terms</a>
+                                    <a href="">Contact</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

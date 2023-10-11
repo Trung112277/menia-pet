@@ -1,0 +1,340 @@
+#header{
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 700;
+    max-height: 700px;
+}
+#header-top .container .row{
+    align-content: center;
+    align-items: center;
+}
+#header-top .container .row .navbar .navbar-nav .nav-item .nav-link{
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+#header-top .container .row .navbar .navbar-nav .nav-item span{
+    background-color: white;
+}
+#header-top .container .row .navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: rgb(255, 252, 252);
+    transition: all 1s;
+    overflow: hidden;
+}
+#header-top .container .row .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    font-weight: 700;
+    padding: 10px 20px;
+}
+#header-top .container .row .navbar .navbar-nav .nav-item .dropdown-menu{
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#header-top .container .row .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    background-color: #ffd100;
+    transition: all 1s;
+    text-align: left;
+}
+#header-top .container .row .logo-home{
+    font-size: 25px;
+}
+#header-top .container .row .logo-home .petmania a{
+    text-decoration: none;
+    color: #000000;
+    font-family: var(--e-global-typography-vamtam_h4-font-family ),Sans-serif;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', Sans-serif;
+}
+#header-top .container .row .contact span .phone{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 15px;
+}
+#header-top .container .row .contact span .heart{
+    border-radius: 50px;
+    border: 5px solid #000000;
+    color: white;
+    padding: 5px 5px;
+    background-color: #000000;
+    margin-right: 15px;
+}
+#header-top .container .row .contact span button{
+    padding: 12px 35px;
+    font-weight: 700;
+    border: 1px solid #ffd100;
+    border-radius: 40px;
+    background-color: #ffd100;
+}
+#header-top .container .row .contact span button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out 0s;
+}
+#header-top .container .row .contact{
+    text-align: right;
+}
+#header .link .container{
+    color: #000000;
+    font-size: 35px;
+    padding-top: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+#header .link .container p a{
+    color: #000000;
+    text-decoration: none;
+}
+#header .link .container p a:hover{
+    color: #000000;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out 0s;
+}
+#footer{
+    background-color: #e5eeff;
+    padding-top: 30px;
+}
+#footer #footer-top .footer-infor {
+    align-content: center;
+    align-items: center;
+}
+#footer #footer-top .footer-infor .container{
+    border-bottom: 1px solid #afb1a4;
+    padding-bottom: 10px;
+}
+#footer #footer-top .footer-infor .mau-vang{
+    margin-top: -78px;
+}
+#footer #footer-top .footer-infor span a{
+    color: #2e3031;
+    font-size: 25px;
+    padding-right: 10px;
+}
+#footer #footer-top .footer-infor span a i:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out 0s;
+}
+#footer #footer-top .footer-contacts{
+    padding-top: 30px;
+    font-size: 14px;
+    align-content: center;
+    align-items: center;
+    color: #2e3031;
+}
+#footer #footer-top .footer-contacts a{
+    text-decoration: none;
+    color: #2e3031;
+}
+#footer #footer-top .footer-contacts .contacts-text span{
+    font-weight: 500;
+}
+#footer #footer-top .footer-contacts .contacts-content{
+    font-weight: 700;
+}
+#footer #footer-top .footer-contacts .contacts-content span a{
+    margin-right: 10px;
+}
+#footer #footer-top .footer-contacts .contacts-content span a:hover{
+    text-decoration: underline;
+}
+#footer #footer-down .started{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#footer #footer-down .started h3{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: var( --e-global-typography-vamtam_h2-font-family ),Sans-serif;
+}
+#footer #footer-down .started .footer-book-now{
+    padding-top: 30px;
+    align-content: center;
+    align-items: center;
+}
+#footer #footer-down .started .footer-book-now a{
+    font-size: 25px;
+    color: #2e3031;
+    font-weight: 700;
+    text-decoration: none;
+}
+#footer #footer-down .started .footer-book-now button{
+    padding: 16px 40px;
+    color: #2e3031;
+    background-color: #ffd100;
+    border: 1px solid #ffd100;
+    border-radius: 40px;
+    background-color: #ffd100;
+}
+#footer #footer-down .started .footer-book-now button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out 0s;
+}
+#footer #footer-down .footer-bottom{
+    font-size: 15px;
+    color: #2e3031;
+    padding-bottom: 20px;
+}
+#footer #footer-down .footer-bottom a{
+    text-decoration: none;
+    color: #2e3031;
+}
+#footer #footer-down .footer-bottom .col-md-6{
+    margin-bottom: 15px;
+}
+#footer #footer-down .footer-bottom .duoi a{
+    margin-right: 5px;
+}
+#footer #footer-down .footer-bottom .duoi a:hover{
+    text-decoration: underline;
+}
+#main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#main .billing .customer{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+#main .billing .customer a{
+    color: #002f4e;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#main .billing-details{
+    padding-top: 70px;
+}
+#main .billing-details h2{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 900;
+}
+#main .billing-details .details .form{
+    margin-bottom: 30px;
+}
+#main .billing-details .details .form a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+}
+#main .billing-details .details .form input{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+#main .billing-details .details #country .form-floating .form-select{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+#main .billing-details .details #node .form-check input{
+    padding: 0px 0px
+}
+#main .billing-details .details #node .form-check .text{
+    padding-top: 4px;
+}
+#main .billing-details .details #node .order-notes{
+    margin-top: 30px;
+}
+#main #order, #code, #bank-transfer{
+    padding: 40px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 30px;
+}
+#main #order h2{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 900;
+}
+#main #order p{
+    margin-top: 20px;
+}
+#main #order{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+#main #order .items-price p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#main #order .items-price{
+    padding: 20px 0;
+    border-top: 1px solid #ebebeb;
+}
+#main #code{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+#main #code a{
+    font-size: 15px;
+    color: #002842;
+    font-weight: 600;
+    text-decoration: none
+}
+#main #bank-transfer .accordion .accordion-item{
+    border: none;
+}
+#main #bank-transfer .accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+#main #bank-transfer .accordion .accordion-item .accordion-header .accordion-button{
+    background-color: transparent;
+}
+#main #bank-transfer .accordion .accordion-item{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+}
+#main #bank-transfer .accordion .accordion-item .accordion-collapse{
+    background-color: #e5eeff;
+}
+#main #bank-transfer .text{
+    margin-top: 20px;
+}
+#main #bank-transfer .text span{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+}
+#main #bank-transfer .text span a{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#main #bank-transfer .form-check{
+    margin-top: 20px;
+}
+#main #bank-transfer .form-check .form-check-label a{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#main #bank-transfer .button{
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #002842;
+    padding: 16px 10px;
+    margin-top: 20px;
+    border: 1px solid #002842;
+    border-radius: 30px;
+}
+#main #bank-transfer .button:hover{
+    background-color: #000000;
+}
